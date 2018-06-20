@@ -15,3 +15,6 @@ It then copies the local file you wish to push to that directory, commits and pu
 - perform git pull before adding the new file
 - pull branches, create branch if it does not exist
 - show friendly errors eg: ssh-key, could not find, already exists
+- more useful commit comments
+- stow uses global git config, maybe allow user to change the config inside repos in .stow
+- clean up tmp logs and repos after a few days 
