@@ -1,5 +1,5 @@
 if [ $# -ne 3 ]; then
-    printf "\n Usage: $0 local_file_name git_repo_url branch_name\n"
+    printf "\n Usage: $0 local_file_name ssh_git_repo_url branch_name\n"
     exit 1
 fi
 
