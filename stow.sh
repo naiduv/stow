@@ -42,4 +42,4 @@ eval "(cd ${repo_dir} ; git add --all ; git commit -a -m \"stowed ${local_file_n
 eval "(cd ${repo_dir} ; git push origin ${branch}) ${nohup_log_cmd_suffix}";
 
 #print log path
-printf "\n Logs for this operations stored at ${log_file_path}";
+printf "\n Logs for this operations stored at ${log_path}";
