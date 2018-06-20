@@ -13,5 +13,5 @@ It then copies the local file you wish to push to that directory, commits and pu
 
 **Future work**
 - perform git pull before adding the new file
-- create branch if it does not exist
+- pull branches, create branch if it does not exist
 - show friendly errors eg: ssh-key, could not find, already exists
