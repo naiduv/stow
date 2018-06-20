@@ -7,7 +7,7 @@ Stow creates a clone of the repo in the ~/.stow/tmp directory.
 It then copies the local file you wish to push to that directory, commits and pushes it to the branch specified.
 
 **Known Issues**
-- Fails silently on every step
+- Fails silently on every step, requires user to look at the logs
 - Does not pull repo, so if remote changes occur, user needs to manually delete the repo in tmp - work around might be to just 'git reset --hard origin master' after a failure or when the call to stow is made.
 - Does not correctly account for new branches
 
