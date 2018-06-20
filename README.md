@@ -11,4 +11,7 @@ It then copies the local file you wish to push to that directory, commits and pu
 - Does not pull repo, so if remote changes occur, user needs to manually delete the repo in tmp - work around might be to just 'git reset --hard origin master' after a failure or when the call to stow is made.
 - Does not correctly account for new branches
 
-**Still a work in progress**
+**Future work**
+- perform git pull before adding the new file
+- create branch if it does not exist
+- show friendly errors eg: ssh-key, could not find, already exists
