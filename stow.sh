@@ -26,6 +26,7 @@ log_path="${stow_log_dir}/${log_file_name}.log";
 
 nohup_log_cmd_suffix=" >> ${log_path} 2>&1";
 
+# clone the repo to tmp
 eval "(cd ${stow_tmp_dir} ; git clone ${git_repo_url}) ${nohup_log_cmd_suffix}"
 
 #switch branch
